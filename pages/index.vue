@@ -1249,8 +1249,8 @@
               </b-link>
             </div>
             <div class="mx-auto">
-              <b-link class="text-white">
-                <b-icon-globe />
+              <b-link class="text-white" href="https://uikit.to/saas-landing-pages/">
+                <b-icon-globe  class="mr-1"/>https://uikit.to/saas-landing-pages/
               </b-link>
             </div>
           </b-col>
