@@ -2,7 +2,11 @@
 
 ![Saas Landing Page](/static/thumb.png)
 
-Design sourse from [https://uikit.to/saas-landing-pages/](https://uikit.to/saas-landing-pages/)
+Design source from [https://uikit.to/saas-landing-pages/](https://uikit.to/saas-landing-pages/).
+
+If you want to improve the this project feel free to contribute. 
+
+
 
 ## Build Setup
 
