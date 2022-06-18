@@ -44,7 +44,7 @@ h2 {
   justify-content: center;
 }
 
-.card-feature>.class-body {
+.card-feature > .class-body {
   display: flex;
   justify-content: center;
 }
@@ -96,12 +96,40 @@ $theme-colors: (
 
 .box-subsctibe {
   border-radius: 50px !important;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .form-control .input-subscribe:hover {
   outline: none !important;
-  border: none !important
+  border: none !important;
+}
+
+.bg-green-light {
+  background-color: #f9f8fe !important;
+}
+
+.bg-hero {
+  background: rgb(219, 240, 235);
+  background: linear-gradient(
+    119deg,
+    rgba(219, 240, 235, 1) 0%,
+    rgba(249, 249, 249, 0.938813025210084) 32%,
+    rgba(249, 249, 249, 1) 66%,
+    rgba(219, 240, 235, 1) 100%
+  );
+  margin-top: -150px !important;
+  padding-top: 100px !important;
+}
+
+.bg-section-product {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    73deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(249, 249, 249, 0.938813025210084) 22%,
+    rgba(249, 249, 249, 1) 47%,
+    rgba(219, 240, 235, 1) 81%
+  );
 }
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

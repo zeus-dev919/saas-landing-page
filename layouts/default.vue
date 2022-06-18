@@ -1,8 +1,8 @@
 <template>
   <div>
-    <b-navbar variant="faded" toggleable="lg" type="light">
-      <b-container>
-        <b-navbar-brand tag="h1" class="mb-0">
+    <b-navbar toggleable="md">
+      <b-container class="d-flex align-items-center">
+        <b-navbar-brand tag="h1" class="mb-4 mt-0">
           <svg
             width="155"
             height="40"
@@ -20,7 +20,7 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item class="active" href="/">Home</b-nav-item>
+            <b-nav-item active to="/">Home</b-nav-item>
             <b-nav-item href="#">Product</b-nav-item>
             <b-nav-item href="#">FAQ</b-nav-item>
             <b-nav-item href="#">Blog</b-nav-item>
